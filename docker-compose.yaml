@@ -1,0 +1,12 @@
+
+services:
+
+  etherpad:
+    build:
+      context: ./docker/etherpad
+    environment:
+      - NODE_ENV=production
+      - ADMIN_PASSWORD=password
+    ports:
+      - ${ETHERPAD_PORT-9001}:9001
+    restart: unless-stopped
