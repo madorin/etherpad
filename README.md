@@ -9,10 +9,10 @@ Custom [Etherpad](https://etherpad.org/) Docker file to suit your project needs.
 Based on [official](https://github.com/ether/etherpad-lite/blob/develop/Dockerfile) Docker image.
 
 Includes a set of features:
-    - Preinstalled custom Etherpad [plugins](https://static.etherpad.org/)
-    - Integrate it with [Abiword](https://gitlab.gnome.org/World/AbiWord) or [Libreoffice](https://www.libreoffice.org/)
-    - Other preconfigured settings and tweaks
-    - Docker compose sample to connect it to your projects
+ - Preinstalled custom Etherpad [plugins](https://static.etherpad.org/)
+ - Integrate it with [Abiword](https://gitlab.gnome.org/World/AbiWord) or [Libreoffice](https://www.libreoffice.org/)
+ - Other preconfigured settings and tweaks
+ - Docker compose sample to connect it to your projects
 
 
 ## Usage
